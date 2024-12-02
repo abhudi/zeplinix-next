@@ -1,14 +1,22 @@
 import Link from "next/link";
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
-
+import Image from "next/image";
 const Header = () => {
   return (
     <div className="flex justify-between items-center bg-black p-4 mx-5 my-3">
       {/* Left Section: Logo and Navigation Links */}
       <div className="flex space-x-8 items-center text-white gap-28">
         {/* Logo */}
-        <div className="text-white text-lg font-bold">Logo</div>
+        <div className="text-white text-lg font-bold">
+          <Image
+            src="/logo.png" // Replace with the path to your logo image
+            alt="Logo"
+            width={200} // Adjust the width as needed
+            height={100} // Adjust the height as needed
+            className="object-contain"
+          />
+        </div>
 
         {/* Navigation Links */}
         <div className="flex space-x-8">
