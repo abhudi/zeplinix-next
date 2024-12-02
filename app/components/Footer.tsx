@@ -45,7 +45,7 @@ const Footer = () => {
       }}
     >
       {/* Upper Section */}
-      <div className="footer-upper-section flex flex-wrap justify-between items-center p-8 sm:p-12 md:p-16 border-b-2 border-white">
+      <div className="footer-upper-section flex flex-wrap justify-between items-center p-8 sm:p-8 md:p-8 border-b-2 border-white">
         <div>
           <Image
             src="/logo-white.png" // Replace with the path to your logo image
