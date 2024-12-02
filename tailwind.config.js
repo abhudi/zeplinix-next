@@ -14,6 +14,7 @@ module.exports = {
         primary: "#E63946", // This is your custom red color
         secondary: "#303030",
         "bg-card": "#4949494F",
+        "banner-button": "#424242A6",
       },
       fontSize: {
         "fs-20": "20px", // Custom font size of 20px

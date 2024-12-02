@@ -13,29 +13,27 @@ const Banner: React.FC = () => {
       </div>
 
       {/* Foreground Content */}
-      <div className="relative z-20 flex flex-col lg:flex-row w-11/12 mx-auto p-4 lg:p-8 text-center lg:text-left">
-        {/* Column 1 */}
-        <div className="w-full lg:w-1/2 px-2 sm:px-4 mb-4 lg:mb-0">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-            About Us
-          </h2>
-          <p className="text-sm sm:text-base leading-relaxed">
-            Trusted by innovators across the globe to deliver excellence.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit laborum — semper quis lectus nulla.
+      <div className="relative z-20 flex flex-col w-11/12 mx-auto p-4 lg:p-8 text-center lg:text-left">
+        <div className="mb-8">
+          {/* Main Heading */}
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+            Zeplinix where <span className="text-red-500">innovation</span>{" "}
+            meets digital transformation
+          </h1>
+          <p className="text-sm sm:text-base lg:text-lg mt-4 leading-relaxed">
+            Transform your business with innovative software solutions designed
+            to adapt, scale, and thrive.
           </p>
         </div>
 
-        {/* Column 2 */}
-        <div className="w-full lg:w-1/2 px-2 sm:px-4">
-          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4">
-            Our Mission
-          </h3>
-          <p className="text-sm sm:text-base leading-relaxed">
-            Empower businesses to achieve their goals with innovation and
-            precision. We bring expertise, commitment, and results to every
-            project we undertake.
-          </p>
+        {/* Buttons */}
+        <div className="flex flex-wrap justify-center lg:justify-start gap-4">
+          <button className="px-6 py-3 bg-red-500 text-white font-semibold rounded-full shadow-lg hover:bg-red-600 transition">
+            Contact Us →
+          </button>
+          <button className="px-6 py-3 bg-white text-gray-800 font-semibold rounded-full shadow-lg hover:bg-gray-200 transition">
+            Explore More →
+          </button>
         </div>
       </div>
     </div>
