@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
-
+import Image from "next/image";
 const Footer = () => {
   const aboutUsData = [
     { text: "Mission & Vision", link: "/about-us" },
@@ -46,7 +46,15 @@ const Footer = () => {
     >
       {/* Upper Section */}
       <div className="footer-upper-section flex flex-wrap justify-between items-center p-8 sm:p-12 md:p-16 border-b-2 border-white">
-        <h1 className="text-3xl md:text-4xl text-white font-bold">Zeplinix</h1>
+        <div>
+          <Image
+            src="/logo-white.png" // Replace with the path to your logo image
+            alt="Logo"
+            width={200} // Adjust the width as needed
+            height={100} // Adjust the height as needed
+            className="object-contain"
+          />
+        </div>
         <div className="flex flex-wrap gap-4 items-center text-white">
           <h6 className="text-lg">Ready To Get Started?</h6>
           <button className="bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800">
