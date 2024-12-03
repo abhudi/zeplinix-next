@@ -6,7 +6,6 @@ import Image from "next/image";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
   };
@@ -46,10 +45,15 @@ const Header = () => {
 
         {/* Contact Button and Hamburger Menu */}
         <div className="flex items-center space-x-4">
-          <button className="bg-primary text-white px-4 py-2 rounded-md flex items-center space-x-2 hover:bg-primary-light">
+          {/* Updated Contact Link to be fully clickable */}
+          <Link
+            href="/contact"
+            className="bg-primary text-white px-4 py-2 rounded-md flex items-center space-x-2 hover:bg-primary-light w-full"
+          >
             <FaPhoneAlt />
             <span>Contact</span>
-          </button>
+          </Link>
+
           {/* Hamburger Button */}
           <button className="lg:hidden flex items-center" onClick={toggleMenu}>
             <span className="text-xl">☰</span>
