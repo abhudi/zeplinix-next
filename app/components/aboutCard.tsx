@@ -42,7 +42,7 @@ const AboutUsCard: React.FC = () => {
         {/* Mute/Unmute Button */}
         <button
           onClick={toggleMute}
-          className="absolute top-4 right-4 bg-white text-black p-2 rounded-full shadow-md hover:shadow-lg transition-shadow duration-300 focus:outline-none"
+          className="absolute bottom-4 right-4 bg-white text-black p-2 rounded-full shadow-md hover:shadow-lg transition-shadow duration-300 focus:outline-none"
         >
           {isMuted ? (
             <span className="text-xl">🔇</span>
