@@ -25,7 +25,7 @@ module.exports = {
         "custom-pt": "92px", // Custom padding-top value
       },
       height: {
-        80: "23rem", // Custom height for h-80
+        80: "26rem", // Custom height for h-80
       },
     },
   },

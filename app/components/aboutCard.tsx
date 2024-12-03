@@ -27,7 +27,7 @@ const AboutUsCard: React.FC = () => {
       </div>
 
       {/* Right Section */}
-      <div className="relative w-full lg:w-8/12 h-64 lg:h-auto">
+      <div className="relative w-full lg:w-8/12 h-96 lg:h-auto">
         <video
           ref={videoRef}
           className="w-full h-full object-cover"
