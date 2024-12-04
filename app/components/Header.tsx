@@ -14,7 +14,7 @@ const Header = () => {
     <header className="bg-black text-white px-4 py-3">
       <div className="flex justify-between items-center container mx-auto">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center z-10">
           <Image
             src="/logo.png" // Replace with your logo path
             alt="Logo"
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
         {/* Navigation Links */}
-        <nav className="hidden lg:flex absolute inset-x-0 mx-auto justify-center space-x-6">
+        <nav className="hidden lg:flex sm:absolute inset-x-0 mx-auto justify-center space-x-6">
           <Link href="/" className="hover:text-primary">
             Home
           </Link>
@@ -44,15 +44,14 @@ const Header = () => {
         </nav>
 
         {/* Contact Button and Hamburger Menu */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 z-10">
           {/* Updated Contact Link to be fully clickable */}
-          <Link
-            href="/contact"
-            className="bg-primary text-white px-4 py-2 rounded-md flex items-center space-x-2 hover:bg-primary-light w-full"
-          >
+          <button className="bg-primary text-white px-4 py-2 rounded-md flex items-center space-x-2 hover:bg-primary-light w-full">
             <FaPhoneAlt />
-            <span>Contact</span>
-          </Link>
+            <p>
+              <Link href="/contact">Contact</Link>
+            </p>
+          </button>
 
           {/* Hamburger Button */}
           <button className="lg:hidden flex items-center" onClick={toggleMenu}>
