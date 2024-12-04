@@ -15,17 +15,28 @@ module.exports = {
         secondary: "#303030",
         "bg-card": "#4949494F",
         "banner-button": "#424242A6",
+        glass: "#29292961",
+        white: "#FFFFFF",
       },
       fontSize: {
         "fs-20": "20px", // Custom font size of 20px
+        "fs-24": "24px", // Custom font size of 20px
         "fs-16": "16px", // Custom font size of 20px
         "fs-54": "54px", // Custom font size of 20px
+        "fs-64": "64px", // Custom font size of 20px
       },
       spacing: {
         "custom-pt": "92px", // Custom padding-top value
       },
       height: {
         80: "26rem", // Custom height for h-80
+      },
+      backgroundImage: {
+        "gradient-radial":
+          "radial-gradient(50% 50% at 50% 50%, rgba(230, 57, 70, 0.3) 0%, rgba(128, 32, 39, 0) 100%)",
+      },
+      borderWidth: {
+        0.4: "0.4px", // Custom border width
       },
     },
   },

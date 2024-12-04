@@ -84,7 +84,7 @@ const Header = () => {
             About
           </Link>
           <Link
-            href="/services"
+            href="/service"
             className="hover:text-primary"
             onClick={toggleMenu}
           >
