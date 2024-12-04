@@ -37,7 +37,7 @@ export default function ProjectRequirementForm() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative z-10">
         <div
-          className="absolute w-full h-full top-0 left-0 opacity-80 pointer-events-none z-0"
+          className="absolute w-full h-full top-0 lg:left-[-250px] left-0 opacity-80 pointer-events-none z-0"
           style={{
             background:
               "radial-gradient(50% 50% at 50% 50%, rgba(230, 57, 70, 0.3) 0%, rgba(128, 32, 39, 0) 100%)",
