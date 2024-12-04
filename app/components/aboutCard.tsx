@@ -35,7 +35,7 @@ const AboutUsCard: React.FC = () => {
           loop
           muted={isMuted}
         >
-          <source src="/about.mov" type="video/mp4" />
+          <source src="/about.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
