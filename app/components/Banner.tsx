@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner: React.FC = () => {
   return (
-    <div className="relative w-full h-auto sm:h-[100%] lg:h-[37rem] flex flex-col lg:flex-row items-center justify-center overflow-hidden bg-gray-800 text-white mb-8">
+    <div className="relative w-full h-auto sm:h-[100%] lg:h-[37rem] flex flex-col lg:flex-row items-center justify-center overflow-hidden bg-gray-800 text-white mb-8 lg:px-10">
       {/* Video Background using ::before */}
       <div className="absolute inset-0 before:absolute before:inset-0 before:bg-black/40 before:z-10">
         <video className="w-full h-full object-cover" autoPlay loop muted>
@@ -20,7 +20,7 @@ const Banner: React.FC = () => {
       ></div>
 
       {/* Foreground Content */}
-      <div className="relative z-20 flex flex-col w-full sm:w-1/2 mx-auto p-4 lg:p-8 text-center lg:text-left">
+      <div className="relative z-20 flex flex-col w-full sm:w-1/2 mx-auto p-4  text-center lg:text-left">
         <div className="mb-8">
           <button className="px-6 py-3 bg-[#424242A6] text-white font-semibold rounded-md shadow-lg transition mb-8 leading-tight">
             Building your Dreams
