@@ -20,9 +20,13 @@ const Banner: React.FC = () => {
       ></div>
 
       {/* Foreground Content */}
-      <div className="relative z-20 flex flex-col w-full sm:w-1/2 mx-auto p-4  text-center lg:text-left">
-        <div className="mb-8">
-          <button className="px-6 py-3 bg-[#424242A6] text-white font-semibold rounded-md shadow-lg transition mb-8 leading-tight">
+      <div className="relative z-20 flex flex-col w-full sm:w-1/2 mx-auto p-4 text-center lg:text-left">
+        <div className="mb-4">
+          {" "}
+          {/* Reduced the margin to decrease space */}
+          <button className="px-6 py-3 bg-[#424242A6] text-white font-semibold rounded-md shadow-lg transition mb-4 leading-tight">
+            {" "}
+            {/* Reduced the margin here */}
             Building your Dreams
           </button>
           {/* Main Heading */}
@@ -48,14 +52,16 @@ const Banner: React.FC = () => {
       </div>
 
       {/* Second Section */}
-      <div className="relative z-20 flex flex-col w-full sm:w-1/2 mx-auto p-4 lg:p-8 text-center lg:text-left">
+      <div className="relative z-20 flex flex-col w-full sm:w-1/2 mx-auto p-4 lg:p-6 text-center lg:text-left">
+        {" "}
+        {/* Adjusted padding here */}
         <div className="relative flex lg:justify-end items-center w-full lg:h-screen">
           <div className="flex gap-5 w-full lg:justify-end justify-center  px-4">
             {/* Left Box */}
             <div className="w-1/3 flex justify-center items-center">
               <div className="w-full max-w-[152px] h-[122px] bg-glass text-white p-3 rounded-lg shadow-lg border-0.4 border-lighest-gray">
                 <h2 className="text-sm ">Valued projects</h2>
-                <p className="font-semibold text-fs-30 mt-10">845+</p>
+                <p className="font-semibold text-[30px] mt-10">845+</p>
               </div>
             </div>
 
@@ -64,13 +70,13 @@ const Banner: React.FC = () => {
               {/* Box 1 */}
               <div className="bg-glass max-w-[152px] h-[122px] text-white p-3 rounded-lg shadow-lg border-0.4 border-lighest-gray">
                 <h2 className="text-sm ">Trusted clients</h2>
-                <p className="font-semibold text-fs-30 mt-10">100+</p>
+                <p className="font-semibold text-[30px] mt-10">100+</p>
               </div>
 
               {/* Box 2 */}
               <div className="bg-glass max-w-[152px] h-[122px] text-white p-3 rounded-lg shadow-lg border-0.4 border-lighest-gray">
                 <h2 className="text-sm ">Team size</h2>
-                <p className="font-semibold text-fs-30 mt-10">200+</p>
+                <p className="font-semibold text-[30px] mt-10">200+</p>
               </div>
             </div>
           </div>
