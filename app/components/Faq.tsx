@@ -48,7 +48,7 @@ const FAQ: React.FC = () => {
       <h2 className="text-3xl font-bold text-center mb-2 text-white">
         FAQs – Your Questions Answered
       </h2>
-      <p className="text-white mb-8 text-center">
+      <p className="text-[#909090] mb-8 text-center ">
         Find quick answers to common queries about our services, solutions, and
         how we can help your business thrive.
       </p>
