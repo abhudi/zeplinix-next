@@ -47,15 +47,15 @@ const FAQ: React.FC = () => {
               <div
                 className={`w-6 h-6 flex items-center justify-center rounded-full border-2 ${
                   activeIndex === index
-                    ? "bg-blue-500 text-white"
-                    : "border-gray-500"
+                    ? " text-primary border-primary"
+                    : "border-primary text-primary"
                 }`}
               >
                 {activeIndex === index ? "-" : "+"}
               </div>
             </div>
             {activeIndex === index && (
-              <div className="p-4 text-gray-700 bg-gray-100 rounded-md">
+              <div className="p-4 text-[#909090] bg-transparent rounded-md">
                 {faq.answer}
               </div>
             )}
