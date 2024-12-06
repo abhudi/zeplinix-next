@@ -1,6 +1,8 @@
 import Banner from "./components/Banner";
+import Blogcards from "./components/Blogcards";
 import Brandssection from "./components/Brandssection";
 import StandardProduct from "./components/StandardProduct";
+import Testimonialmap from "./components/Testimonialmap";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Banner />
       <Brandssection />
       <StandardProduct />
+      <Testimonialmap />
+      <Blogcards />
     </div>
   );
 }
