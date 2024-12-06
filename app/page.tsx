@@ -13,7 +13,6 @@ export default function Home() {
       <StandardProduct />
       <Testimonialmap />
       <Blogcards />
-      <FAQ />
     </div>
   );
 }

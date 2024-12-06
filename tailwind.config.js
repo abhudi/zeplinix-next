@@ -32,7 +32,8 @@ module.exports = {
         "custom-pt": "92px", // Custom padding-top value
       },
       height: {
-        80: "30rem", // Custom height for h-80
+        80: "22rem", // Custom height for h-80
+        90: "33rem", // Custom height for h-80
       },
       backgroundImage: {
         "gradient-radial":

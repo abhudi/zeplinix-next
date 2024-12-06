@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useRef, useState } from "react";
 
 const AboutUsCard: React.FC = () => {
@@ -16,14 +17,19 @@ const AboutUsCard: React.FC = () => {
     <div className="flex flex-col lg:flex-row mx-4 sm:mx-8 lg:mx-10 h-auto lg:h-80 max-w-full bg-white shadow-lg overflow-hidden mb-10 mt-10 lg:mt-20 ">
       {/* Left Section */}
       <div className="w-full lg:w-4/12 bg-secondary p-6 flex flex-col justify-center text-center lg:text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-5 lg:mb-10 pt-5 lg:pt-10">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-5 lg:mb-6 pt-5 lg:pt-10">
           About Us<span className="text-primary">.</span>
         </h2>
-        <p className="mt-3 sm:mt-5 pb-5 lg:pb-10 text-base sm:text-lg">
-          Trusted by innovators across the globe to deliver excellence.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit laborum — semper quis lectus nulla.
+        <p className="mt-3 sm:mt-5 pb-2 lg:pb-8 text-base sm:text-lg">
+          Zeplinix deliver innovative, technology-driven solutions to simplify
+          operations, boost efficiency, and drive success across industries.
         </p>
+
+        <Link href={"/about"}>
+          <button className=" text-primary font-semibold rounded-full transition">
+            Read more →
+          </button>
+        </Link>
       </div>
 
       {/* Right Section */}

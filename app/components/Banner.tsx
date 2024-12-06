@@ -61,7 +61,7 @@ const Banner: React.FC = () => {
             <div className="w-1/3 flex justify-center items-center">
               <div className="w-full max-w-[152px] h-[122px] bg-glass text-white p-3 rounded-lg shadow-lg border-0.4 border-lighest-gray">
                 <h2 className="text-sm ">Valued projects</h2>
-                <p className="font-semibold text-[30px] mt-10">845+</p>
+                <p className="font-semibold text-[30px] mt-10">60+</p>
               </div>
             </div>
 
@@ -70,13 +70,13 @@ const Banner: React.FC = () => {
               {/* Box 1 */}
               <div className="bg-glass max-w-[152px] h-[122px] text-white p-3 rounded-lg shadow-lg border-0.4 border-lighest-gray">
                 <h2 className="text-sm ">Trusted clients</h2>
-                <p className="font-semibold text-[30px] mt-10">100+</p>
+                <p className="font-semibold text-[30px] mt-10">24+</p>
               </div>
 
               {/* Box 2 */}
               <div className="bg-glass max-w-[152px] h-[122px] text-white p-3 rounded-lg shadow-lg border-0.4 border-lighest-gray">
                 <h2 className="text-sm ">Team size</h2>
-                <p className="font-semibold text-[30px] mt-10">200+</p>
+                <p className="font-semibold text-[30px] mt-10">45+</p>
               </div>
             </div>
           </div>
